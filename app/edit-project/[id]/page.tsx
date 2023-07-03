@@ -16,7 +16,7 @@ const EditProject = async ({ params: { id } }: { params: { id: string } }) => {
   };
 
   if (!result?.project)
-    return <p className="no-result-text">Failed to fetch project info</p>;
+    return <p className="no-result-text"> to fetch project info</p>;
 
   return (
     <Modal>
